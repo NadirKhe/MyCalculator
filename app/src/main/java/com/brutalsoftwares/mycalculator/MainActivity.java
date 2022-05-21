@@ -122,6 +122,9 @@ public class MainActivity extends AppCompatActivity {
         */
         Expression expression = new Expression(userExpression);
         String result = String.valueOf(expression.calculate());
+
+        display.setText(result);
+        display.setSelection(result.length());
     }
     public void trigSinBTNPush(View view) {
         updateText("sin(");

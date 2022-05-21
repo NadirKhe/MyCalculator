@@ -28,7 +28,7 @@
         android:textAlignment="textEnd"
         android:inputType="textPersonName"
         android:hint="@string/displayHint"
-        android:textColorHint="@color/greyAccent"
+        android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="48sp"
         android:importantForAutofill="no"
@@ -55,7 +55,7 @@
             android:background="@drawable/button_background"
             android:onClick="decimalBTNPush"
             android:text="@string/decimalText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button23"
             app:layout_constraintTop_toBottomOf="@+id/button25" />
@@ -69,7 +69,7 @@
             android:background="@drawable/equals_button_background"
             android:onClick="equalsBTNPush"
             android:text="@string/equalsText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button21"
             app:layout_constraintTop_toBottomOf="@+id/button24" />
@@ -82,7 +82,7 @@
             android:background="@drawable/button_background"
             android:onClick="zeroBTNPush"
             android:text="@string/zeroText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintEnd_toEndOf="@+id/button26"
             app:layout_constraintStart_toStartOf="@+id/button27"
@@ -97,7 +97,7 @@
             android:background="@drawable/arithmetic_button_background"
             android:onClick="addBTNPush"
             android:text="@string/addText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button25"
             app:layout_constraintTop_toBottomOf="@+id/button28" />
@@ -111,7 +111,7 @@
             android:background="@drawable/button_background"
             android:onClick="threeBTNPush"
             android:text="@string/threeText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button26"
             app:layout_constraintTop_toBottomOf="@+id/button29" />
@@ -125,7 +125,7 @@
             android:background="@drawable/button_background"
             android:onClick="twoBTNPush"
             android:text="@string/twoText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button27"
             app:layout_constraintTop_toBottomOf="@+id/button30" />
@@ -138,7 +138,7 @@
             android:background="@drawable/button_background"
             android:onClick="oneBTNPush"
             android:text="@string/oneText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button31" />
@@ -152,7 +152,7 @@
             android:background="@drawable/arithmetic_button_background"
             android:onClick="subtractBTNPush"
             android:text="@string/subtractText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button29"
             app:layout_constraintTop_toBottomOf="@+id/button33" />
@@ -166,7 +166,7 @@
             android:background="@drawable/button_background"
             android:onClick="sixBTNPush"
             android:text="@string/sixText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button30"
             app:layout_constraintTop_toBottomOf="@+id/button34" />
@@ -180,8 +180,7 @@
             android:background="@drawable/button_background"
             android:onClick="fiveBTNPush"
             android:text="@string/fiveText"
-
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button31"
             app:layout_constraintTop_toBottomOf="@+id/button35" />
@@ -194,7 +193,7 @@
             android:background="@drawable/button_background"
             android:onClick="fourBTNPush"
             android:text="@string/fourText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button36" />
@@ -202,16 +201,17 @@
         <ImageButton
             android:id="@+id/button32"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="48dp"
             android:layout_marginTop="10dp"
             android:background="@drawable/button_background"
             android:contentDescription="@string/backspace"
             android:onClick="backspaceBTNPush"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             app:layout_constraintEnd_toEndOf="@+id/button37"
             app:layout_constraintStart_toStartOf="@+id/button37"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/backspace" />
+            app:srcCompat="@drawable/backspace"
+            tools:ignore="SpeakableTextPresentCheck"/>
 
         <Button
             android:id="@+id/button33"
@@ -222,7 +222,7 @@
             android:background="@drawable/arithmetic_button_background"
             android:onClick="multiplyBTNPush"
             android:text="@string/multiplyText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button34"
             app:layout_constraintTop_toBottomOf="@+id/button37" />
@@ -236,7 +236,7 @@
             android:background="@drawable/button_background"
             android:onClick="nineBTNPush"
             android:text="@string/nineText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button35"
             app:layout_constraintTop_toBottomOf="@+id/button38" />
@@ -250,7 +250,7 @@
             android:background="@drawable/button_background"
             android:onClick="eightBTNPush"
             android:text="@string/eightText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button36"
             app:layout_constraintTop_toBottomOf="@+id/button39" />
@@ -263,7 +263,7 @@
             android:background="@drawable/button_background"
             android:onClick="sevenBTNPush"
             android:text="@string/sevenText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button40" />
@@ -277,7 +277,7 @@
             android:background="@drawable/arithmetic_button_background"
             android:onClick="divideBTNPush"
             android:text="@string/divideText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button38"
             app:layout_constraintTop_toBottomOf="@+id/button32" />
@@ -291,7 +291,7 @@
             android:background="@drawable/button_background"
             android:onClick="parCloseBTNPush"
             android:text="@string/parenthesesCloseText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button39"
             app:layout_constraintTop_toBottomOf="@+id/button32" />
@@ -305,7 +305,7 @@
             android:background="@drawable/button_background"
             android:onClick="parOpenBTNPush"
             android:text="@string/parenthesesOpenText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toEndOf="@+id/button40"
             app:layout_constraintTop_toBottomOf="@+id/button32" />
@@ -318,7 +318,7 @@
             android:background="@drawable/clear_button_background"
             android:onClick="clearBTNPush"
             android:text="@string/clearText"
-            android:textColor="@color/tanAccent"
+            android:textColor="@color/white"
             android:textSize="28sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button32" />
