@@ -6,4 +6,5 @@
 ## <p align=center>Application Sample Gif</p>
 <p align="center">
   <img src="https://media.giphy.com/media/8HU1ieUSiLhZQ5oKlt/giphy.gif" alt="animated" />
+  <img src="https://media.giphy.com/media/1eR7Au2Mmis4YJFfWe/giphy.gif" alt="animated" />
 </p>
